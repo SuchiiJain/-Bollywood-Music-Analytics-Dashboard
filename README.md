@@ -19,12 +19,14 @@ A Spotify-style Streamlit dashboard to explore and analyze Bollywood music using
 ## 📁 Project Structure
 ```
 project/
-├── app.py                      # Main Streamlit app
+├── app.py
 ├── data/
-│   └── bollywood_combined_music_data.csv
+│   ├── bollywood_combined_music_data.csv
+│   └── saved_blends.json
 ├── utils/
-│   ├── load_data.py           # Data loading and preprocessing
-│   └── analytics.py           # Chart and stats logic
+│   ├── load_data.py
+│   └── analytics.py
+├── requirements.txt
 ```
 
 ## 🚀 Run Locally
