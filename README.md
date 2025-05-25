@@ -1,53 +1,55 @@
-# 🎶 Bollywood Music Analytics Dashboard
+# Bollywood Music Analytics Dashboard 🎶
 
-An advanced interactive music analytics dashboard built using **Python** and **Streamlit**, focused on exploring **artist-wise popularity** and **audio features** of Bollywood songs on Spotify.
+A Spotify-style Streamlit dashboard to explore and analyze Bollywood music using Spotify audio features. Built to help users discover trends in artist popularity, song mood, energy levels, and genre patterns.
 
-This project combines two Spotify datasets to provide deep insights into how Bollywood songs perform, what makes them popular, and how audio traits differ across artists and genres.
+## 🔍 Features
+- 🎧 Artist popularity explorer
+- 📈 Audio feature radar (energy, mood, danceability)
+- 🎼 Theme/genre trend analysis (Romantic, Sufi, Retro, etc.)
+- 🔥 Heatmap comparing top artists on key audio metrics
+- 🔎 Filterable song explorer by artist, popularity, and energy
 
-Link to Dashboard: https://suchiijain-bollywood-music-analytics-dashboard-app-eehocg.streamlit.app/
+## 🛠️ Tech Stack
+- **Frontend/UI:** Streamlit
+- **Backend/Data:** Python, Pandas
+- **Visualizations:** Matplotlib, Seaborn
 
----
+## 📁 Project Structure
+```
+project/
+├── app.py                      # Main Streamlit app
+├── data/
+│   └── bollywood_combined_music_data.csv
+├── utils/
+│   ├── load_data.py           # Data loading and preprocessing
+│   └── analytics.py           # Chart and stats logic
+```
 
-## 📌 Features
+## 🚀 Run Locally
+1. Clone the repo
+```bash
+git clone [your-repo-link]
+cd project
+```
+2. Install dependencies
+```bash
+pip install -r requirements.txt
+```
+3. Launch the app
+```bash
+streamlit run app.py
+```
 
-- 🎧 **Artist Popularity Explorer**  
-  View average, max, and min popularity of every artist and song.
+## 📊 Data Source
+Spotify audio features + manually tagged Bollywood genre/theme labels
 
-- 📊 **Audio Feature Radar**  
-  Compare artists across danceability, energy, valence, and more.
+## 🌐 Live Demo
+https://suchiijain-bollywood-music-analytics-dashboard-app-eehocg.streamlit.app/
 
-- 🎼 **Theme/Genre-Based Popularity**  
-  Discover what themes (e.g. Romantic Ballad, Sufi, Retro) drive high popularity.
+Made with ❤️ by Suchi — feel free to connect or give feedback!
 
-- 🔥 **Feature Heatmap for Top Artists**  
-  Analyze how top artists score across audio features.
-
-- 🔍 **Filterable Song Explorer**  
-  Easily search and explore songs based on artists and features.
-
----
-
-## 🧠 Business Problem
-
-**How does artist-wise song popularity vary based on audio characteristics and genre themes in Bollywood music?**
-
-This dashboard helps:
-- Record labels identify trends and high-performing artist traits
-- Fans and analysts explore what makes a song successful
-- Developers and data scientists showcase analytics skillsets
-
----
-
-## 🗃️ Dataset Description
-
-This project merges two datasets:
-1. **Popular Hindi Songs** – Top 950 Spotify tracks with popularity scores and artists
-2. **Spotify Audio Features** – 1445 Bollywood songs with:
-   - Audio traits: `danceability`, `energy`, `valence`, `acousticness`, etc.
-   - Genre/theme tags: `Sufi`, `Romantic Ballad`, `Wedding`, etc.
-   - Metadata: `artist_name`, `spotify_link`, `duration`, `mode`, etc.
-
----
+## 📄 License
+MIT License
 
 ## ▶️ How to Run
 
