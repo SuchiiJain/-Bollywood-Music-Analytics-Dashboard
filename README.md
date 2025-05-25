@@ -4,10 +4,12 @@ A Spotify-style Streamlit dashboard to explore and analyze Bollywood music using
 
 ## 🔍 Features
 - 🎧 Artist popularity explorer
-- 📈 Audio feature radar (energy, mood, danceability)
-- 🎼 Theme/genre trend analysis (Romantic, Sufi, Retro, etc.)
-- 🔥 Heatmap comparing top artists on key audio metrics
-- 🔎 Filterable song explorer by artist, popularity, and energy
+- 📈 Audio feature radar (compare multiple artists)
+- 🎼 Genre-based trend analysis (Romantic, Sufi, etc.)
+- 🔥 Audio heatmap and time-based mood trends
+- 🎛️ Build your own blend by selecting songs
+- 💾 Save, rename, delete, and reload blends
+- 🎯 Smart recommendations by vibe (energy, mood, danceability)
 
 ## 🛠️ Tech Stack
 - **Frontend/UI:** Streamlit
