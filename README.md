@@ -51,7 +51,6 @@ This project merges two datasets:
 
 Make sure you have Python 3.7+ installed.
 
-bash
 # 1. Clone the repository
 git clone https://github.com/suchijain/bollywood-analytics-dashboard.git
 cd bollywood-analytics-dashboard
