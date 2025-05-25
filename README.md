@@ -49,3 +49,31 @@ This project merges two datasets:
 
 ## 📂 Folder Structure
 
+bollywood-analytics-dashboard/
+│
+├── app.py # Main Streamlit app
+├── requirements.txt # Required libraries
+├── README.md # This file
+│
+├── data/
+│ └── bollywood_combined_music_data.csv
+│
+└── utils/
+├── load_data.py # Loads & explodes artist data
+└── analytics.py # Stats & plot functions
+---
+
+## ▶️ How to Run
+
+Make sure you have Python 3.7+ installed.
+
+bash
+# 1. Clone the repository
+git clone https://github.com/suchijain/bollywood-analytics-dashboard.git
+cd bollywood-analytics-dashboard
+
+# 2. Install dependencies
+pip install -r requirements.txt
+
+# 3. Run the Streamlit app
+streamlit run app.py
