@@ -4,6 +4,8 @@ An advanced interactive music analytics dashboard built using **Python** and **S
 
 This project combines two Spotify datasets to provide deep insights into how Bollywood songs perform, what makes them popular, and how audio traits differ across artists and genres.
 
+Link to Dashboard: https://suchiijain-bollywood-music-analytics-dashboard-app-eehocg.streamlit.app/
+
 ---
 
 ## 📌 Features
