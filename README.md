@@ -50,17 +50,3 @@ Made with ❤️ by Suchi — feel free to connect or give feedback!
 
 ## 📄 License
 MIT License
-
-## ▶️ How to Run
-
-Make sure you have Python 3.7+ installed.
-
-# 1. Clone the repository
-git clone https://github.com/suchijain/bollywood-analytics-dashboard.git
-cd bollywood-analytics-dashboard
-
-# 2. Install dependencies
-pip install -r requirements.txt
-
-# 3. Run the Streamlit app
-streamlit run app.py
